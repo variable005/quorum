@@ -2,7 +2,7 @@
 
 > A full implementation of the Raft distributed consensus algorithm running across 8 ESP32 nodes communicating over raw ESP-NOW frames. No libraries. No coordinator. No single point of failure.
 
-![Demo](demo.png)
+![Demo](image.png)
 
 ---
 
