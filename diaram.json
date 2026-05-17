@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "author": "Raft Mesh",
+  "editor": "wokwi",
+  "parts": [
+    { "id": "esp0", "type": "board-esp32-devkit-c-v4", "top": 0,   "left": 0,   "attrs": { "env": "arduino-community" } },
+    { "id": "esp1", "type": "board-esp32-devkit-c-v4", "top": 0,   "left": 220, "attrs": { "env": "arduino-community" } },
+    { "id": "esp2", "type": "board-esp32-devkit-c-v4", "top": 0,   "left": 440, "attrs": { "env": "arduino-community" } },
+    { "id": "esp3", "type": "board-esp32-devkit-c-v4", "top": 0,   "left": 660, "attrs": { "env": "arduino-community" } },
+    { "id": "esp4", "type": "board-esp32-devkit-c-v4", "top": 280, "left": 0,   "attrs": { "env": "arduino-community" } },
+    { "id": "esp5", "type": "board-esp32-devkit-c-v4", "top": 280, "left": 220, "attrs": { "env": "arduino-community" } },
+    { "id": "esp6", "type": "board-esp32-devkit-c-v4", "top": 280, "left": 440, "attrs": { "env": "arduino-community" } },
+    { "id": "esp7", "type": "board-esp32-devkit-c-v4", "top": 280, "left": 660, "attrs": { "env": "arduino-community" } }
+  ],
+  "connections": [
+    [ "esp0:TX", "$serialMonitor:RX", "" ],
+    [ "esp0:RX", "$serialMonitor:TX", "" ],
+    [ "esp1:TX", "$serialMonitor:RX", "" ],
+    [ "esp2:TX", "$serialMonitor:RX", "" ],
+    [ "esp3:TX", "$serialMonitor:RX", "" ],
+    [ "esp4:TX", "$serialMonitor:RX", "" ],
+    [ "esp5:TX", "$serialMonitor:RX", "" ],
+    [ "esp6:TX", "$serialMonitor:RX", "" ],
+    [ "esp7:TX", "$serialMonitor:RX", "" ]
+  ]
+}
